@@ -30,9 +30,6 @@ for col in df.columns[1:]:
 # drop_first=True = show less columns and avoid multicolinility
 df=pd.get_dummies(df,drop_first=True )
 
-# Save cleaned df
-df.to_csv("data/test_cleaned_df.csv",index=False)
-
 # Feature engineering
 # create a new bin from "account_length". Rank 1-10
 df["account_length_group"] = pd.qcut(df['account_length'].rank(method = 'first'),q=5,labels=range(5,0,-1))
@@ -40,3 +37,6 @@ df["account_length_group"] = pd.qcut(df['account_length'].rank(method = 'first')
 # drop "account_length"
 df =df.drop(columns=["account_length"])
 print(df.shape)
+
+# Save cleaned df
+df.to_csv("data/test_cleaned_df.csv",index=False)

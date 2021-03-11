@@ -112,7 +112,8 @@ There is no missing value.
 ## 4.2 Distribution
 
 #### Churn distribution
-Green = No Churn, Orange Churn
+Green = No Churn
+Orange = Churn
 
 ![dist](/images/distribution.PNG)
 
@@ -195,26 +196,53 @@ A dummy variableis a numeric variable that represents categorical data, such as 
 
 #### 5.2.1. Creating a new feature,"account_length_group" for "account_length" by computing numerical data ranks (1 ~ 10) and drop "account_length".
 
-#### 5.3 Data quality comparason
+#### 5.3 AUC-ROC and Accuracy rates comparason
 Compared unclean data without new features and cleaned data with new feaures. Although this challenge is evaluated by accuracy, I would focus on improving AUC-ROC rates due to imbalanced data. AUC-ROC rates are improved by 0.23% ~ 12.53% depending on models. Gaussian NB model is onle one model which does not have positive influence by cleaning and new features.
 
 ![aucroc_imp](/images/aucroc_improvement.PNG)
 
+#### 5.4 Resampling 
+I hav tried resampling techniques(both up and down samplings), however, they did not increase accuracy rates. Therefore, the ratio of churn is the same as initial dataset.(no churn 86%, churn 14%)
 
 
-# 6. Modeling and evaluation
+# 6. Modeling, turning and evaluation
+
+![accuracy](/images/accuracy_comparason.png)
 
 
+![aucaoc](/images/aucroc_comparason.png)
+
+
+## 6.1 The top 3 models which performed well in AUC-ROC and accuracy rates. 
+Their scores are really close each other. Hyperparameter turning will be a key to make the final model. 
+* **XGB Classifier**
+* **Gradient Boosting Classifier**
+* **Random Forest Classifier**
+
+
+
+## 6.2 The best performed model
+
+![](/images/)
+
+## 6.3 Confusion matrix
+
+![](/images/)
 
 
 
 # 7. The competition and final scores
 
+This competiotion has been completed 9 months ago. Here is [leaderboard](https://www.kaggle.com/c/customer-churn-prediction-2020/leaderboard) My final private score (based on train data) is XXX.
+
+![competition](/images/competition_ranking.PNG)
+
+
 
 # 8. Challenges and augmentations
 
 * For customer churn prediction, it will be better to have more customers'personal information such as gender, age, occupation, education.
-* 
+* Creating new features will be next level challenge. 
 
 
 

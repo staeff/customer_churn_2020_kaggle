@@ -15,7 +15,3 @@ The heart of churn management lies in being able to identify the early warning s
 6. Modeling and evaluation
 7. The competition and final scores
 8. Challenges and augmentations
-
-
-
-
