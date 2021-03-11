@@ -114,24 +114,24 @@ There is no missing value.
 #### Churn distribution
 Green = No Churn, Orange Churn
 
-![dist](distribution.PNG)
+![dist](/images/distribution.PNG)
 
 
 #### No churn distribution
 Beautiful bell shaped curve.
 
-![no_churn](distribution_no_churn.PNG)
+![no_churn](/images/distribution_no_churn.PNG)
 
 #### Churn distribution
 Around account length 160, there is a unique spike that is not in "no churn" distribution.
 
-![churn](distribution_churn.PNG)
+![churn](/images/distribution_churn.PNG)
 
 
 
 ## 4.3 Multicoliniality
 
-#### 4.3.1 What is multicoliniality? Why do I care?
+#### 4.3.1 What is multicoliniality? Why do we care?
 Some of the predictor variables(features) are correlated among themselves. They needs to be detected and removed because they have bad influence on models.
 
 #### 4.3.2 How do I check if variales are multicollinear or not?
@@ -198,7 +198,7 @@ A dummy variableis a numeric variable that represents categorical data, such as 
 #### 5.3 Data quality comparason
 Compared unclean data without new features and cleaned data with new feaures. Although this challenge is evaluated by accuracy, I would focus on improving AUC-ROC rates due to imbalanced data. AUC-ROC rates are improved by 0.23% ~ 12.53% depending on models. Gaussian NB model is onle one model which does not have positive influence by cleaning and new features.
 
-![aucroc_imp](aucroc_improvement.PNG)
+![aucroc_imp](/images/aucroc_improvement.PNG)
 
 
 
@@ -213,7 +213,7 @@ Compared unclean data without new features and cleaned data with new feaures. Al
 
 # 8. Challenges and augmentations
 
-* For customer churn prediction, it will be better to have more customer personal information such as gender, age, occupation, education.
+* For customer churn prediction, it will be better to have more customers'personal information such as gender, age, occupation, education.
 * 
 
 
