@@ -40,7 +40,7 @@ The heart of churn management lies in being able to identify the early warning s
 2. [data_analysis.py](https://github.com/yukaberry/customer_churn_2020_kaggle/blob/master/data_analysis.py)
 3. [modeling.py](https://github.com/yukaberry/customer_churn_2020_kaggle/blob/master/modeling.py)
 4. [parameter_turning.py](https://github.com/yukaberry/customer_churn_2020_kaggle/blob/master/parameter_turning.py)
-5. [loaded_model_confusion_matrix.py](https://github.com/yukaberry/customer_churn_2020_kaggle/blob/master/loaded_model_confusion_matrix.py)
+5. [loaded_model.py](https://github.com/yukaberry/customer_churn_2020_kaggle/blob/master/loaded_model.py)
 
 * [project_report.md](https://github.com/yukaberry/customer_churn_2020_kaggle/blob/master/project_report.md) Project findings
 * [requirements.txt]() Software Requirements
