@@ -216,11 +216,11 @@ Their scores are really close each other. Hyperparameter turning will be a key t
 
 
 
-## 6.2 The best performed model
+## 6.2 The best performed model, XGB Classifier
 
 ![classification_repo](/images/xgb_classifcation_report.PNG)
 
-## 6.3 Confusion matrix
+## 6.3 Confusion matrix of XGB Classifier
 
 ![confusion_m](/images/xgb_confusion_matrix.png)
 
@@ -228,7 +228,7 @@ Their scores are really close each other. Hyperparameter turning will be a key t
 
 # 7. The competition and final scores
 
-This competiotion has been completed 9 months ago. Here is [leaderboard](https://www.kaggle.com/c/customer-churn-prediction-2020/leaderboard) My final private score (based on train data) is .
+This competiotion has been completed 9 months ago. Here is [leaderboard](https://www.kaggle.com/c/customer-churn-prediction-2020/leaderboard) My final private score (based on train data) is as above.
 
 ![competition](/images/competition_ranking.PNG)
 

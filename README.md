@@ -1,5 +1,5 @@
 # Project :Customer churn prediction 2020 on kaggle competion
-[This competition](https://www.kaggle.com/c/customer-churn-prediction-2020/overview) is about predicting whether a customer will change telecommunications provider, something known as "churning".**[here to find a project report]()**
+[This competition](https://www.kaggle.com/c/customer-churn-prediction-2020/overview) is about predicting whether a customer will change telecommunications provider, something known as "churning".**[here to find a project report](https://github.com/yukaberry/customer_churn_2020_kaggle/blob/master/project_report.md)**
 
 ### Motivation
 
@@ -19,30 +19,30 @@ The heart of churn management lies in being able to identify the early warning s
 
 # Report of this project 
 
-* [project_report.md]()
+* [project_report.md](https://github.com/yukaberry/customer_churn_2020_kaggle/blob/master/project_report.md)
 
 # Files' and folders' details and structure
 
 ## Folders
 
-* [data]() Raw dataset and cleaned dataset.
-* [images]() Images used in [the report]()
-* [model]() Stored a turned XGB model.
-* [notebooks]() Jupyternotebooks for data visualisation, cleaning data, EDA, modeling and turning. 
-* [utils]()
-    * [utils_cleaning_data.py]() Utils used for [cleaning_data.py]()
-    * [utils_modeling.py]() Utils used for [modeling.py]()
+* [data](https://github.com/yukaberry/customer_churn_2020_kaggle/tree/master/data) Raw dataset and cleaned dataset.
+* [images](https://github.com/yukaberry/customer_churn_2020_kaggle/tree/master/images) Images used in [the report](https://github.com/yukaberry/customer_churn_2020_kaggle/blob/master/project_report.md)
+* [model](https://github.com/yukaberry/customer_churn_2020_kaggle/tree/master/model) Stored a turned XGB model.
+* [notebooks](https://github.com/yukaberry/customer_churn_2020_kaggle/tree/master/notebooks) Jupyternotebooks for data visualisation, cleaning data, EDA, modeling and turning. 
+* utils
+    * [utils_cleaning_data.py]() Utils used for [cleaning_data.py](https://github.com/yukaberry/customer_churn_2020_kaggle/blob/master/utils/utils_cleaning_data.py)
+    * [utils_modeling.py]() Utils used for [modeling.py](https://github.com/yukaberry/customer_churn_2020_kaggle/blob/master/utils/utils_modeling.py)
 
 
 ## Files
 
-1. [cleaning_data.py]()
-2. [data_analysis.py]()
-3. [modeling.py]()
-4. [parameter_turning.py]()
-5. [loaded_model_confusion_matrix.py]()
+1. [cleaning_data.py](https://github.com/yukaberry/customer_churn_2020_kaggle/blob/master/cleaning_data.py)
+2. [data_analysis.py](https://github.com/yukaberry/customer_churn_2020_kaggle/blob/master/data_analysis.py)
+3. [modeling.py](https://github.com/yukaberry/customer_churn_2020_kaggle/blob/master/modeling.py)
+4. [parameter_turning.py](https://github.com/yukaberry/customer_churn_2020_kaggle/blob/master/parameter_turning.py)
+5. [loaded_model_confusion_matrix.py](https://github.com/yukaberry/customer_churn_2020_kaggle/blob/master/loaded_model_confusion_matrix.py)
 
-* [project_report.md]() Project findings
+* [project_report.md](https://github.com/yukaberry/customer_churn_2020_kaggle/blob/master/project_report.md) Project findings
 * [requirements.txt]() Software Requirements
 
 
