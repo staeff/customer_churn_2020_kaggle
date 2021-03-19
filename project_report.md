@@ -1,8 +1,4 @@
 
-
-
-
-
 # 1.The objective of this project
 
 This kaggle challenge is to predict whether a customer will change telecommunications provider. 
@@ -202,7 +198,7 @@ Compared unclean data without new features and cleaned data with new feaures. Al
 ![aucroc_imp](/images/aucroc_improvement.PNG)
 
 #### 5.4 Resampling 
-I hav tried resampling techniques(both up and down samplings), however, they did not increase accuracy rates. Therefore, the ratio of churn is the same as initial dataset.(no churn 86%, churn 14%)
+I have tried resampling techniques(both up and down samplings), however, they did not increase accuracy rates. Therefore, the ratio of churn is the same as initial dataset.(no churn 86%, churn 14%)
 
 
 # 6. Modeling, turning and evaluation
@@ -217,23 +213,22 @@ I hav tried resampling techniques(both up and down samplings), however, they did
 Their scores are really close each other. Hyperparameter turning will be a key to make the final model. 
 * **XGB Classifier**
 * **Gradient Boosting Classifier**
-* **Random Forest Classifier**
 
 
 
 ## 6.2 The best performed model
 
-![](/images/)
+![classification_repo](/images/xgb_classifcation_report.PNG)
 
 ## 6.3 Confusion matrix
 
-![](/images/)
+![confusion_m](/images/xgb_confusion_matrix.png)
 
 
 
 # 7. The competition and final scores
 
-This competiotion has been completed 9 months ago. Here is [leaderboard](https://www.kaggle.com/c/customer-churn-prediction-2020/leaderboard) My final private score (based on train data) is XXX.
+This competiotion has been completed 9 months ago. Here is [leaderboard](https://www.kaggle.com/c/customer-churn-prediction-2020/leaderboard) My final private score (based on train data) is .
 
 ![competition](/images/competition_ranking.PNG)
 

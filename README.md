@@ -15,3 +15,38 @@ The heart of churn management lies in being able to identify the early warning s
 6. Modeling and evaluation
 7. The competition and final scores
 8. Challenges and augmentations
+
+
+# Report of this project 
+
+* [project_report.md]()
+
+# Files' and folders' details and structure
+
+## Folders
+
+* [data]() Raw dataset and cleaned dataset.
+* [images]() Images used in [the report]()
+* [model]() Stored a turned XGB model.
+* [notebooks]() Jupyternotebooks for data visualisation, cleaning data, EDA, modeling and turning. 
+* [utils]()
+    * [utils_cleaning_data.py]() Utils used for [cleaning_data.py]()
+    * [utils_modeling.py]() Utils used for [modeling.py]()
+
+
+## Files
+
+1. [cleaning_data.py]()
+2. [data_analysis.py]()
+3. [modeling.py]()
+4. [parameter_turning.py]()
+5. [loaded_model_confusion_matrix.py]()
+
+* [project_report.md]() Project findings
+* [requirements.txt]() Software Requirements
+
+
+
+
+
+
