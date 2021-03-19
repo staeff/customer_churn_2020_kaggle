@@ -102,6 +102,7 @@ There is no missing value.
 ![call](/images/call.PNG)
 
 #### Churn by total day charge
+* 0 = "no churn", 1 = "churn"  
 ![daycharge](/images/total_day_charge.PNG)
 
 
@@ -221,6 +222,8 @@ Their scores are really close each other. Hyperparameter turning will be a key t
 ![classification_repo](/images/xgb_classifcation_report.PNG)
 
 ## 6.3 Confusion matrix of XGB Classifier
+
+* Overall, the model predicted the class well, especially "no churn", which is 99%. What I could improve is False Negative rate. XGB classifyed "no churn" when it is actualy "churn". This model is trained by a data with 84% of "no churn" so I expected the confusion matrix will lean toward to this result. 
 
 ![confusion_m](/images/xgb_confusion_matrix.png)
 
