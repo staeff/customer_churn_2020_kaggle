@@ -5,7 +5,7 @@ This kaggle challenge is to predict whether a customer will change telecommunica
 
 The evaluation metric for this competition is the test accuracy, defined as follows:
 
-[\text{Accuracy} = \frac{\text{Number of correctly predicted test samples}}{\text{Total number of test samples}}\](https://latex.codecogs.com/svg.latex?%5C%5B%5Ctext%7BAccuracy%7D%20%3D%20%5Cfrac%7B%5Ctext%7BNumber%20of%20correctly%20predicted%20test%20samples%7D%7D%7B%5Ctext%7BTotal%20number%20of%20test%20samples%7D%7D%5C%5D) 
+![[\text{Accuracy} = \frac{\text{Number of correctly predicted test samples}}{\text{Total number of test samples}}\]](https://latex.codecogs.com/svg.latex?%5C%5B%5Ctext%7BAccuracy%7D%20%3D%20%5Cfrac%7B%5Ctext%7BNumber%20of%20correctly%20predicted%20test%20samples%7D%7D%7B%5Ctext%7BTotal%20number%20of%20test%20samples%7D%7D%5C%5D) 
 
 Customer churn is one of the most important fields in the business analysis and the critical goals of businesses. It is easier and less expensive to focus on retaining existing customers than acquire new ones. Increasing customer retaintion rates by a few % could increase profits significantly. Predicting customer churn will help a business to retain their exisiting customers, and also expand identfying potential customers. 
 The heart of churn management lies in being able to identify the early warning signals from potential attritors. Machine learning will provide a solution so that businesses will make proactive movements to stop customers from swtiching to competitors, or stoping subscribing services.
